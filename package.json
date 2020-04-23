@@ -9,6 +9,7 @@
     "bcrypt": "^4.0.1",
     "bcrypt-nodejs": "0.0.3",
     "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
     "express-favicon": "^2.0.1",
     "path": "^0.12.7",
     "react": "^16.13.1",
