@@ -82,7 +82,6 @@ class App extends Component{
       this.setState({imageUrl:this.state.input})
      fetch('https://vast-anchorage-93089.herokuapp.com/imageUrl',{
        method:'post',
-       mode:"no-cors",
        headers: {'Content-Type':'application/json'},
        body: JSON.stringify({
          input:this.state.input
@@ -93,7 +92,6 @@ class App extends Component{
         if(response){
           fetch('https://vast-anchorage-93089.herokuapp.com/image',{
             method:'put',
-            mode:"no-cors",
             headers:{'Content-Type':'application/json'},
              body:JSON.stringify({
               id:this.state.user.id,
